@@ -1,0 +1,33 @@
+.header{
+    grid-area: head;
+    padding: 8px;
+}
+
+.header_name{
+    display: flex;
+    align-items: center;
+}
+
+.input_box{
+    margin-left: 10rem;
+}
+
+.icon_badge{
+    font-size: small;
+    z-index: 0;
+    margin-left: 1rem;
+}
+.icon{
+    color: white;
+}
+
+.btn-primary:hover{
+    color: white;
+}
+
+.btn-primary{
+    margin: 0;
+    background-color: white;
+    color:var(--primary-color);
+}
+
