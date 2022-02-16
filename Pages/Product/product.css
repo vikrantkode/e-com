@@ -34,7 +34,7 @@
     flex-wrap: wrap;
     padding: 1rem;
     gap: 0.5rem;
-    /* justify-content: center; */
+    justify-content: center;
 }
 .large_heading{
     margin-top: 1rem;
