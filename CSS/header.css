@@ -11,6 +11,11 @@
     align-items: center;
 }
 
+.header_name > a{
+    text-decoration: none;
+    color: var(--white-color);
+}
+
 .input_box{
     margin-left: 10rem;
 }
