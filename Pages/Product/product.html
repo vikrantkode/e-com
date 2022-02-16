@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product</title>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <link rel="stylesheet" href="https://veekay-cmplib.netlify.app/CSS/components.css">
+    <link rel="stylesheet" href="https://veekay-cmplib.netlify.app/CSS/header.css">
+    <link rel="stylesheet" href="/CSS/header.css">
+    <link rel="stylesheet" href="/Pages/Product/product.css">
+
+</head>
+</head>
+
+<body>
+    <div class="container">
+        <!-- Header Starts -->
+        <div class="header">
+            <div class="header_name">
+                <a href="/index.html"> <h3> Vee-Kay Accessories </h3></a>
+                <input class="input_box" type="text" placeholder="Enter text..">
+            </div>
+            <div class="header_subcontents">
+                <a href=""><button class="btn btn-primary">Login</button></a>
+
+                <div class="badge_container">
+                    <div class="icon_badge">
+                        <a href="/Pages/Cart Management/cart.html"> <span class="material-icons-outlined icon">
+                                shopping_cart
+                            </span></a>
+                        <span class="badge_numbered">1</span>
+                    </div>
+                    <div class="icon_badge">
+                        <a href="/Pages/Wishlist/wishlist.html"> <span class="material-icons-outlined icon">
+                                favorite_border
+                            </span></a>
+                        <span class="badge_numbered">1</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Header Ends -->
+        <!-- Sidebar Starts -->
+
+        <aside class="sidebar_container">
+            <div class="sidebar_box space_between">
+                <h3 class="large_heading">Filter</h3>
+                <span class="filter">Clear Filter</span>
+            </div>
+
+            <div class="sidebar_box sidebar_slider">
+                <h3 class="large_heading">Price</h3>
+                <p class="sidebar_price_range space_between">
+                    <span class="min_price">₹250</span>
+                    <span class="max_price">₹1000</span>
+                </p>
+                <input class="input_range" type="range" min="250" max="1000" value="150">
+            </div>
+
+            <div class="sidebar_box ">
+                <h3 class="large_heading">Category</h3>
+                <ul class="list">
+                    <li class="normal_list"><input class="checkbox_list" type="checkbox">New Arrivals</li>
+                    <li class="normal_list"><input class="checkbox_list" type="checkbox">Cleaning Clothes</li>
+                </ul>
+
+                <h3 class="large_heading">Rating</h3>
+                <ul class="list">
+                    <li class="normal_list"><input class="checkbox_list" type="radio" name="rating">4 Stars & Above</li>
+                    <li class="normal_list"><input class="checkbox_list" type="radio" name="rating">3 Stars & Above</li>
+                    <li class="normal_list"><input class="checkbox_list" type="radio" name="rating">2 Stars & Above</li>
+                    <li class="normal_list"><input class="checkbox_list" type="radio" name="rating">1 Stars & Above</li>
+                </ul>
+
+                <h3 class="large_heading">Sort By</h3>
+                <ul class="list">
+                    <li class="normal_list"><input class="checkbox_list" type="radio" name="sort">Price - Low To High</li>
+                    <li class="normal_list"><input class="checkbox_list" type="radio" name="sort">Price - High To Low</li>
+                </ul>
+            </div>
+        </aside>
+        <!-- Sidebar Ends -->
+
+        <div class="main_container">
+            <h1 class="largest_header">All Products</h1>
+            <div class="main_card_container">
+                <div class="card_container">
+                    <div class="card_wrapper">
+                        <img class="card_image" src="/Images/card.jpg" alt="product">
+                        <span class="card_badge">New</span>
+                    </div>
+                    <div class="card_info">
+                        <div class="card_title">VeeKay Wallet</div>
+                        <small class="card_rating"><span class="material-icons-outlined">
+                                star_purple500
+                            </span>5</small>
+                    </div>
+                    <div class="card_price">
+                        <span class="selling_price">₹599</span>
+                        <small class="cost_price">₹1199</small>
+                        <small class="discount">50% off</small>
+                    </div>
+                    <div class="btn_container">
+                        <button class="btn btn-success">Add To Cart</button>
+                        <button class="btn btn-error">Wishlist</button>
+                    </div>
+                </div>
+                <div class="card_container">
+                    <div class="card_wrapper">
+                        <img class="card_image" src="/Images/card.jpg" alt="product">
+                        <span class="card_badge">New</span>
+                    </div>
+                    <div class="card_info">
+                        <div class="card_title">VeeKay Wallet</div>
+                        <small class="card_rating"><span class="material-icons-outlined">
+                                star_purple500
+                            </span>5</small>
+                    </div>
+                    <div class="card_price">
+                        <span class="selling_price">₹599</span>
+                        <small class="cost_price">₹1199</small>
+                        <small class="discount">50% off</small>
+                    </div>
+                    <div class="btn_container">
+                        <button class="btn btn-success">Add To Cart</button>
+                        <button class="btn btn-error">Wishlist</button>
+                    </div>
+                </div>
+                <div class="card_container">
+                    <div class="card_wrapper">
+                        <img class="card_image" src="/Images/card.jpg" alt="product">
+                        <span class="card_badge">New</span>
+                    </div>
+                    <div class="card_info">
+                        <div class="card_title">VeeKay Wallet</div>
+                        <small class="card_rating"><span class="material-icons-outlined">
+                                star_purple500
+                            </span>5</small>
+                    </div>
+                    <div class="card_price">
+                        <span class="selling_price">₹599</span>
+                        <small class="cost_price">₹1199</small>
+                        <small class="discount">50% off</small>
+                    </div>
+                    <div class="btn_container">
+                        <button class="btn btn-success">Add To Cart</button>
+                        <button class="btn btn-error">Wishlist</button>
+                    </div>
+                </div>
+                <div class="card_container">
+                    <div class="card_wrapper">
+                        <img class="card_image" src="/Images/card.jpg" alt="product">
+                        <span class="card_badge">New</span>
+                    </div>
+                    <div class="card_info">
+                        <div class="card_title">VeeKay Wallet</div>
+                        <small class="card_rating"><span class="material-icons-outlined">
+                                star_purple500
+                            </span>5</small>
+                    </div>
+                    <div class="card_price">
+                        <span class="selling_price">₹599</span>
+                        <small class="cost_price">₹1199</small>
+                        <small class="discount">50% off</small>
+                    </div>
+                    <div class="btn_container">
+                        <button class="btn btn-success">Add To Cart</button>
+                        <button class="btn btn-error">Wishlist</button>
+                    </div>
+                </div>
+                <div class="card_container">
+                    <div class="card_wrapper">
+                        <img class="card_image" src="/Images/card.jpg" alt="product">
+                        <span class="card_badge">New</span>
+                    </div>
+                    <div class="card_info">
+                        <div class="card_title">VeeKay Wallet</div>
+                        <small class="card_rating"><span class="material-icons-outlined">
+                                star_purple500
+                            </span>5</small>
+                    </div>
+                    <div class="card_price">
+                        <span class="selling_price">₹599</span>
+                        <small class="cost_price">₹1199</small>
+                        <small class="discount">50% off</small>
+                    </div>
+                    <div class="btn_container">
+                        <button class="btn btn-success">Add To Cart</button>
+                        <button class="btn btn-error">Wishlist</button>
+                    </div>
+                </div>
+                <div class="card_container">
+                    <div class="card_wrapper">
+                        <img class="card_image" src="/Images/card.jpg" alt="product">
+                        <span class="card_badge">New</span>
+                    </div>
+                    <div class="card_info">
+                        <div class="card_title">VeeKay Wallet</div>
+                        <small class="card_rating"><span class="material-icons-outlined">
+                                star_purple500
+                            </span>5</small>
+                    </div>
+                    <div class="card_price">
+                        <span class="selling_price">₹599</span>
+                        <small class="cost_price">₹1199</small>
+                        <small class="discount">50% off</small>
+                    </div>
+                    <div class="btn_container">
+                        <button class="btn btn-success">Add To Cart</button>
+                        <button class="btn btn-error">Wishlist</button>
+                    </div>
+                </div>
+                <div class="card_container">
+                    <div class="card_wrapper">
+                        <img class="card_image" src="/Images/card.jpg" alt="product">
+                        <span class="card_badge">New</span>
+                    </div>
+                    <div class="card_info">
+                        <div class="card_title">VeeKay Wallet</div>
+                        <small class="card_rating"><span class="material-icons-outlined">
+                                star_purple500
+                            </span>5</small>
+                    </div>
+                    <div class="card_price">
+                        <span class="selling_price">₹599</span>
+                        <small class="cost_price">₹1199</small>
+                        <small class="discount">50% off</small>
+                    </div>
+                    <div class="btn_container">
+                        <button class="btn btn-success">Add To Cart</button>
+                        <button class="btn btn-error">Wishlist</button>
+                    </div>
+                </div>
+                <div class="card_container">
+                    <div class="card_wrapper">
+                        <img class="card_image" src="/Images/card.jpg" alt="product">
+                        <span class="card_badge">New</span>
+                    </div>
+                    <div class="card_info">
+                        <div class="card_title">VeeKay Wallet</div>
+                        <small class="card_rating"><span class="material-icons-outlined">
+                                star_purple500
+                            </span>5</small>
+                    </div>
+                    <div class="card_price">
+                        <span class="selling_price">₹599</span>
+                        <small class="cost_price">₹1199</small>
+                        <small class="discount">50% off</small>
+                    </div>
+                    <div class="btn_container">
+                        <button class="btn btn-success">Add To Cart</button>
+                        <button class="btn btn-error">Wishlist</button>
+                    </div>
+                </div>
+                <div class="card_container">
+                    <div class="card_wrapper">
+                        <img class="card_image" src="/Images/card.jpg" alt="product">
+                        <span class="card_badge">New</span>
+                    </div>
+                    <div class="card_info">
+                        <div class="card_title">VeeKay Wallet</div>
+                        <small class="card_rating"><span class="material-icons-outlined">
+                                star_purple500
+                            </span>5</small>
+                    </div>
+                    <div class="card_price">
+                        <span class="selling_price">₹599</span>
+                        <small class="cost_price">₹1199</small>
+                        <small class="discount">50% off</small>
+                    </div>
+                    <div class="btn_container">
+                        <button class="btn btn-success">Add To Cart</button>
+                        <button class="btn btn-error">Wishlist</button>
+                    </div>
+                </div>
+                
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
