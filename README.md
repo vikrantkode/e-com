@@ -12,6 +12,9 @@ Veekay Accessories is an e-commerce app used to buy daily Accessories for men an
 
 **Hosting Platform:**   `Netlify`
 
+## Preview
+
+https://user-images.githubusercontent.com/54833758/155232427-2b04aacf-72e5-4574-b45f-b87545f7a00f.mp4
 
 
 ## Features
